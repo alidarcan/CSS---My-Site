@@ -1,5 +1,7 @@
 # CSS---My-Site
 https://alidarcan.github.io/CSS---My-Site/
+![website](https://user-images.githubusercontent.com/99339675/161147474-08074e3c-b3ee-4e94-b046-6e9d87449657.png)
+
 
 ## INFORMATION
 
