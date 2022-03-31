@@ -9,18 +9,25 @@ h1 {
   margin-top: 50px;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  color: #8c5549;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  color: #8c5549;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 p {
   margin: 0;
+  font-size: 1.25rem;
+}
+a {
+  margin-top: 0;
 }
 /***************************3 CONTAINERS SELECTORS****************/
 
@@ -37,7 +44,6 @@ p {
 
 .bottom-container {
   background-color: #169107;
-
 }
 
 /***************************CLASS SELECTORS****************/
@@ -66,7 +72,15 @@ p {
   left: 15%;
   bottom: 300px;
 }
-
-.skill-row {
-  display:inline-block;
+.mountain-img {
+  position: relative;
+  bottom: -10px;
+}
+.footer-link {
+  font-size: 1rem;
+  margin: 0;
+  color: #84b4fc;
+}
+.end {
+  color: #84b4fc;
 }
