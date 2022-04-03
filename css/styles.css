@@ -2,48 +2,57 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 200%
 }
 
 h1 {
-  margin-top: 50px;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  color: #8c5549;
+  margin: 0 auto;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #8c5549;
+  font-weight: normal;
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
+
 p {
-  margin: 0;
-  font-size: 1.25rem;
+  color: #40514E;
+  font-weight: bold;
+  width: 40%;
+  margin: 30px auto 60px;
+  line-height: 2;
+
 }
-a {
-  margin-top: 0;
+hr {
+  border-width: 6px;
+  width: 5%;
+  height: 1px;
+  border-style: dotted none none none;
+  border-color: gray;
+  margin: 20px auto;
+
 }
 /***************************3 CONTAINERS SELECTORS****************/
 
 .top-container {
-  background-color: #84b4fc;
-  padding-top: 50px;
+  background-color: #E4F9F5;
+  padding-top: 100px;
   position: relative;
 }
 
 .middle-container {
-  background-color: #5c94fc;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .bottom-container {
-  background-color: #169107;
 }
 
 /***************************CLASS SELECTORS****************/
@@ -52,14 +61,20 @@ a {
 }
 
 .profile-img {
-  height: 300px;
+  height: 200px;
+}
+
+.coding-img {
+
+  width: 30%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 100px;
 }
 .code-img {
-  display: inline-block;
-  height: 300px;
-  width: 300px;
+  width: 30%;
   border-radius: 50%;
-  margin-top: 20px;
+  float: right;
 }
 .top-cloud {
   position: absolute;
@@ -74,7 +89,6 @@ a {
 }
 .mountain-img {
   position: relative;
-  bottom: -10px;
 }
 .footer-link {
   font-size: 1rem;
@@ -83,4 +97,13 @@ a {
 }
 .end {
   color: #84b4fc;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills {
+  margin: 50px auto;
 }
