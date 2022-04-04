@@ -42,8 +42,8 @@ hr {
   margin: 100px auto;
 }
 a {
-
   color: #11999E;
+  text-decoration: none;
 }
 /***************************3 CONTAINERS SELECTORS****************/
 
