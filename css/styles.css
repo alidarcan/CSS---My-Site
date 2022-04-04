@@ -38,12 +38,15 @@ hr {
   width: 5%;
   height: 1px;
   border-style: dotted none none none;
-  border-color: gray;
+  border-color: #EAF6F6;
   margin: 100px auto;
 }
 a {
   color: #11999E;
   text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
 }
 /***************************3 CONTAINERS SELECTORS****************/
 
@@ -120,6 +123,9 @@ a {
 }
 .my_projects {
   font-weight: bold;
+}
+.my_projects:hover {
+  color: #11cdd4;
 }
 /***************************BUTTON******************/
 
