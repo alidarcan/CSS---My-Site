@@ -40,7 +40,10 @@ hr {
   border-style: dotted none none none;
   border-color: gray;
   margin: 100px auto;
+}
+a {
 
+  color: #11999E;
 }
 /***************************3 CONTAINERS SELECTORS****************/
 
@@ -83,14 +86,14 @@ hr {
 }
 .top-cloud {
   position: absolute;
-  right: 15%;
-  top: 50px;
+  right: 13%;
+  top: 5%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 15%;
-  bottom: 300px;
+  left: 13%;
+  bottom: 50%;
 }
 .mountain-img {
   position: relative;
@@ -106,6 +109,7 @@ hr {
   font-weight: normal;
   font-size: 0.75rem;
   margin: 40px 0 0;
+  font-family: 'Montserrat', sans-serif;
 
 }
 .skill-row {
@@ -113,6 +117,9 @@ hr {
   margin: 100px auto;
   text-align: left;
   line-height: 2;
+}
+.my_projects {
+  font-weight: bold;
 }
 /***************************BUTTON******************/
 
@@ -126,7 +133,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
