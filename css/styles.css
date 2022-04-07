@@ -49,6 +49,11 @@ a:hover {
   color: #EAF6F6;
 }
 /***************************3 CONTAINERS SELECTORS****************/
+.certificates {
+  width: 50%;
+  margin: auto;
+}
+
 
 .top-container {
   background-color: #E4F9F5;
